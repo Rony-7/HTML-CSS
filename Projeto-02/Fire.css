@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(to top
+    ,rgba(255, 0, 0, 0.87),rgb(59, 55, 55));
+    font-size: 100%;
+}
+
+.inicio{
+    color: aliceblue;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-style: italic;
+    width: 600px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2px;
+}
+a:hover{
+    color: brown;
+    transition: 0.5s all;
+}
+a:active{
+    color: rgb(250, 233, 1);
+    transition: 0s all;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+ 
+.conteudo > .login{
+    color: rgb(255, 0, 0);
+    margin-bottom: 300px;
+    margin-right: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 400px;
+    border-radius: 20px;
+    padding: -10px;
+}
+
+.conteudo > .imagem{
+    margin-bottom: 400px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+
+}
+
+.login > .input > a{
+    color: blue;
+}
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando</title>
+    <style>
+
+        body{
+            background-color: rgb(56, 62, 68);
+        }
+        .cabecalho{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            flex-direction: row;
+        }
+        a{
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+            color: black;
+        }
+
+        a:hover{
+            color: rgb(127, 12, 235)
+        }
+
+        a:active{
+            color: rgb(231, 228, 9);
+        }
+
+        .titulo{
+            display: flex;
+            margin-right: 700px;
+            margin-left: 200px;
+            flex-direction: column;
+        }
+
+        .titulo:hover{
+            color: blueviolet;
+        }
+
+        main{
+            width: 200px;
+            height: 350px;
+            margin-right: 300px;
+            margin-top: 100px;
+            border-radius: 20px;
+            margin-left: 500px;
+            margin-bottom: 300px;
+
+        }
+        
+    
+
+        input{
+           padding: 50px;
+           border-radius: 90px;
+           border: 300px;
+           max-height: 1px;
+           width: 300px;
+           margin-left: 400px;
+           
+        }
+
+        .entrar{
+            background-color: blueviolet;
+            font-weight: bolder;
+            width: 100px;
+            height: 50px;
+            margin-left:550px;
+            border-radius: 10px;
+            text-align: center;
+        }
+       
+    </style>
+    
+
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Landing <br> Page</h1>
+        <a href="#">Home&emsp;</a>
+        <a href="#">Menu&emsp;</a>
+        <a href="#">Help&emsp;</a>
+    </header>
+    
+    <main>
+        <input type="email" placeholder="Email"> <br><br><br>
+        <input type="password"placeholder="Senha">
+        <div class="entrar">
+            <p> <br> Entrar</p>
+        </div>
+    
+        
+    </main>
+
+
+   
+</body>
+</html>
